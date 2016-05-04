@@ -305,9 +305,9 @@ hr {
 /* INTRO
    ================================================== */
 .bg-intro {
-    color: #FFA500;
+    color: #FFF;
 /*    background-image: url(../images/bg.jpg);*/
-    background-image: url(https://s-media-cache-ak0.pinimg.com/600x315/1e/e9/dd/1ee9dd832a18a27ac051e82f1d34c56d.jpg);
+    background-image: url(../images/hotairballoons.jpg);
     background-repeat: no-repeat;
     background-position: center;
     /*background-size*/
@@ -321,10 +321,10 @@ hr {
 }
 
 .layer-intro {
-    background-color:rgb(34,49,63);
+   /* background-color:rgb(34,49,63);*/
     /* IE 8 OPACITY */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-/*    background-color: rgba(34,49,63,.9);*/
+    background-color: rgba(34,49,63,.9);
 }
 
 .bg-intro h1 {
