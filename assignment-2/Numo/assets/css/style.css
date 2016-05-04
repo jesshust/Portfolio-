@@ -21,7 +21,7 @@ Description: Style-Layout
    ================================================== */
 body {
     padding-top: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 .orange {
@@ -29,7 +29,7 @@ body {
 }
 
 a {
-    color:#444;
+    color:#FFA500;
 }
 
 a:hover {
@@ -305,8 +305,9 @@ hr {
 /* INTRO
    ================================================== */
 .bg-intro {
-    color: #FFF;javascript:void(0)
-    background-image: url(../images/bg.jpg);
+    color: #FFA500;
+/*    background-image: url(../images/bg.jpg);*/
+    background-image: url(https://s-media-cache-ak0.pinimg.com/600x315/1e/e9/dd/1ee9dd832a18a27ac051e82f1d34c56d.jpg);
     background-repeat: no-repeat;
     background-position: center;
     /*background-size*/
@@ -323,16 +324,16 @@ hr {
     background-color:rgb(34,49,63);
     /* IE 8 OPACITY */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-    background-color: rgba(34,49,63,.9);
+/*    background-color: rgba(34,49,63,.9);*/
 }
 
 .bg-intro h1 {
     position:relative;
     top:0px;
-    font-size: 46px;
+    font-size: 40px;
     max-width: 700px;
     margin: 0 auto;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     line-height: 66px;
     -webkit-animation-duration: 0.8s;
     animation-duration: 0.8s;
@@ -717,7 +718,7 @@ hr {
 
 .bg-intro-blog {
     min-height:590px;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../assets/images/hotairballoons.jpg);
     background-repeat: no-repeat;
     background-position: center;
     /*background-size*/
