@@ -90,6 +90,7 @@ h3 {
 nav {
 	float: right;
 	margin-top: 25px;
+	text-align: center; 
 }
 nav a {
 	color: #999;
@@ -99,6 +100,8 @@ nav a {
 	border-left: 1px solid #efefef;
 	padding-left: 15px;
 	line-height: 18px;
+	font-size: 22px; 
+	padding: 20px 0px 0px 20px;
 }
 nav a:first-child {
 	border-left: 0 none;
@@ -122,8 +125,7 @@ footer {
 .sidebar {
 	background: #fff;
 	padding: 30px;
-	width: 100%;
-	max-width: 270px;
+	width: 270px;
 	float: right;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
@@ -235,7 +237,7 @@ input[type=submit] {
 
 /*media*/
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 980px)  {
 
 	body {
 		background-color: #ccc;
@@ -245,17 +247,15 @@ input[type=submit] {
 		padding: 20px;
 	}
 	#main-content,
-	#sidebar {
+	#header
+	{
 		width: 100%;
 	}
-	#sidebar {
-		margin-top: 40px;
+	
 	}
-}
 
-@media screen and (max-width: 768px) {
-
-	body {
+@media screen and (min-width: 768px)  {
+		body {
 		background-color: #ccc;
 	}
 	.wrapper {
@@ -263,16 +263,14 @@ input[type=submit] {
 		padding: 20px;
 	}
 	#main-content,
-	#sidebar {
+	#header
+	{
 		width: 100%;
 	}
-	#sidebar {
-		margin-top: 40px;
-	}
-}
+	
 
+}
 @media screen and (max-width: 640px) {
-
 	body {
 		background-color: #ccc;
 	}
@@ -281,13 +279,25 @@ input[type=submit] {
 		padding: 20px;
 	}
 	#main-content,
-	#sidebar {
+	#header,
+	#logo,
+	.sidebar 
+	{
 		width: 100%;
+
 	}
-	#sidebar {
+
+	.sidebar {
 		margin-top: 40px;
+		float: none;
 	}
-	#header {
-		position: static;
+	nav {
+		float: none;
 	}
 }
+
+
+
+
+
+
