@@ -24,8 +24,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.green {
-    color:#1BBC9B;
+.orange {
+    color:#FFA500;
 }
 
 a {
@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-    color:#1BBC9B;
+    color:#FFA500;
     text-decoration:none;
 }
 
@@ -113,14 +113,14 @@ hr {
 /* BUTTON DEFAULT */
 .btn-default {
     color: #FFF;
-    background-color: #1BBC9B;
-    border-color: #1BBC9B;
+    background-color: #FFA500;
+    border-color: #FFA500;
 }
 
 .btn-default:hover {
     color: #FFF;
-    background-color: #1dcba7;
-    border-color: #1dcba7;
+    background-color: #777;
+    border-color: #777;
 }
 
 .btn-default:focus,
@@ -128,8 +128,8 @@ hr {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
     color: #FFF;
-    background-color:#1BBC9B;
-    border-color: #1BBC9B;
+    background-color:#FFA500;
+    border-color: #FFA500;
 }
 
 /* PAGINATION-PAGER
@@ -139,12 +139,12 @@ hr {
 }
 
 .pagination .active span{
-    background-color:#1BBC9B;
+    background-color:#FFA500;
     border-color:#EEEEEE;
 }
 
 .pagination .active span:hover {
-    background-color:#1BBC9B;
+    background-color:#FFA500;
     border-color:#EEEEEE;
 }
 .pagination li a, .pager li a {
@@ -154,13 +154,13 @@ hr {
     transition: background-color .22s ease-out;
 }
 .pagination li a {
-    color:#1BBC9B;
+    color:#FFA500
     border-color:#EEEEEE;
 }
 
 .pagination li a:hover {
     color:#FFF;
-    background-color:#1BBC9B;
+    background-color:#FFA500;
     border-color:#EEEEEE;
 }
 
@@ -224,7 +224,7 @@ hr {
 }
 
 .navbar.navbar-default .navbar-nav>li>a:hover {
-    color: #1BBC9B;
+    color: #FFA500;
     /*transition*/
     -webkit-transition: color .13s ease-out;
     -moz-transition: color .13s ease-out;
@@ -234,7 +234,7 @@ hr {
 
 .navbar-nav li a .contact {
     padding: 7px 10px;
-    background-color: #1BBC9B;
+    background-color: #FFA500;
     color: #FFF;
     border-radius: 4px;
 }
@@ -244,7 +244,7 @@ hr {
     -moz-transition: background-color .13s ease-out;
     -o-transition: background-color .13s ease-out;
     transition: background-color .13s ease-out;
-    background-color:#1dcba7;
+    background-color:#777;
 }
 
 
@@ -286,8 +286,8 @@ hr {
     }
 
     .navbar-default .navbar-toggle {
-        background-color: #1BBC9B;
-        border-color: #1BBC9B;
+        background-color: #FFA500;
+        border-color: #FFA500;
     }
 
     .navbar-default .navbar-toggle:hover,
@@ -491,12 +491,12 @@ hr {
 }
 
 .progress {
-    background-color: #add8e6;
+    background-color: #405A74;
     border-radius: 4px;
 }
 
 .progress-bar {
-    background-color: #ff6600;
+    background-color: #FFA500;
 }
 
 @media (max-width:767px) {
@@ -520,7 +520,7 @@ hr {
     width: 40px;
     text-align: center;
     padding-top: 10px;
-    color: #1BBC9B;
+    color: #FFA500;
 }
 
 .bg-services .row .fa-mobile {
@@ -550,7 +550,7 @@ hr {
 /* CONTACT
    ================================================== */
 .bg-contact {
-    background-color: #1BBC9B;
+    background-color: #FFA500;
     color: #FFF;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -581,7 +581,7 @@ hr {
 
 .bg-contact .mail:hover {
     background-color: #FFF;
-    color: #1BBC9B;
+    color: #FFA500;
     -webkit-transition: all .1s linear;
     -moz-transition: all .1s linear;
     -o-transition: all .1s linear;
@@ -629,8 +629,8 @@ hr {
 }
 
 .bg-footer .fa:hover {
-    background-color: #405A74;
-    color: #22313F;
+    background-color: #FFA500;
+    color: #FFF;
 }
 
 @media (max-width:767px) {
@@ -677,7 +677,7 @@ hr {
 }
 
 .bg-footer-bottom ul li a:hover {
-    color:#1BBC9B;
+    color:#FFA500;
     text-decoration: none;
     
 }
@@ -818,7 +818,7 @@ hr {
 }
 
 .wrapper-blog a .title-post:hover {
-    color:#1BBC9B;
+    color:#FFA500;
 }
 
 /* BLOG-POST-GALLERY */
