@@ -237,7 +237,7 @@ input[type=submit] {
 
 /*media*/
 
-@media screen and (min-width: 980px)  {
+@media screen and (max-width: 980px)  {
 
 	body {
 		background-color: #ccc;
@@ -254,7 +254,7 @@ input[type=submit] {
 	
 	}
 
-@media screen and (min-width: 768px)  {
+@media screen and (max-width: 768px)  {
 		body {
 		background-color: #ccc;
 	}
@@ -263,11 +263,16 @@ input[type=submit] {
 		padding: 20px;
 	}
 	#main-content,
-	#header
-	{
+	#header {
 		width: 100%;
 	}
-	
+	.sidebar {
+		width: 650px; 
+		float:left;
+	}
+	nav {
+		float: none;
+	}
 
 }
 @media screen and (max-width: 640px) {
